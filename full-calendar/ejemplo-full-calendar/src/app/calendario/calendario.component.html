@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+
+      <full-calendar #calendar 
+        defaultView="dayGridMonth"       
+        [plugins]="calendarPlugins" 
+        [weekends]="calendarWeekends" [events]="calendarEvents"
+        (dateClick)="handleDateClick($event)"></full-calendar>
+    </div>
+    <div class="col-md-6">
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Dia</th>
+            <th scope="col">Mes</th>
+            <th scope="col">Año</th>
+            <th scope="col">Hora</th>
+            <th scope="col">Minutos</th>
+            <th scope="col">Segundos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

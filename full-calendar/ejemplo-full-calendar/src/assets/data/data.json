@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Aprovecha",
+        "autor": "Santiago Benavides",
+        "genero": "Lento",
+        "duracion": 186
+    },
+    {
+        "nombre": "Ruge",
+        "autor": "Redimidos",
+        "genero": "Movido",
+        "duracion": 308
+    },
+    {
+        "nombre": "Vida tu me das",
+        "autor": "Paz Aguayo",
+        "genero": "Movido",
+        "duracion": 268
+    }
+]
